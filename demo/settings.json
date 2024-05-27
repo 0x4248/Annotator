@@ -1,0 +1,70 @@
+{
+    "ImageSettings": {
+        "Invert": false,
+        "Contrast": 0,
+        "Brightness": 0,
+        "Saturation": 0,
+        "Hue": 0,
+        "FlipHorizontal": false,
+        "FlipVertical": false,
+        "Rotate": 0
+    },
+    "ImageOverlays": {
+        "Crosshair": {
+            "Enabled": true,
+            "Colour": "#0000FF",
+            "Thickness": 1,
+            "Size": 10,
+            "Type": "Plus",
+            "Offset": {
+                "X": 0,
+                "Y": 0
+            }
+        },
+        "Grid": {
+            "Enabled": true,
+            "Colour": "#FFFFFF",
+            "Thickness": 1,
+            "Spacing": 100,
+            "Type": "Lines"
+        },
+        "SideAnnotations": {
+            "Enabled": true,
+            "Colour": "#FFFFFF",
+            "LText": "L",
+            "RText": "R",
+            "TText": "T",
+            "BText": "B",
+            "TextSize": 50
+        }
+    },
+    "Text": [
+        {
+            "Text": "$DATE",
+            "Position": {
+                "X": 10,
+                "Y": 20
+            },
+            "Size": 10,
+            "Colour": "#FF0000"
+        },
+        {
+            "Text": "$TIME",
+            "Position": {
+                "X": 10,
+                "Y": 40
+            },
+            "Size": 10,
+            "Colour": "#FF0000"
+        },
+        {
+            "Text": "$V1",
+            "Position": {
+                "X": 10,
+                "Y": 60
+            },
+            "Size": 10,
+            "Colour": "#FF0000"
+        }
+    ]
+}
