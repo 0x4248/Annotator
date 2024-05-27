@@ -126,3 +126,5 @@ set -x TEST hello
 ## Licence
 
 This project is licenced under the GNU General Public License v3.0. See the [LICENCE](LICENCE) file for more information.
+
+All images licenced under CC-0 (Public Domain) 
