@@ -50,7 +50,8 @@ An example JSON file is shown below:
             "RText": "R",
             "TText": "T",
             "BText": "B",
-            "TextSize": 50
+            "TextSize": 50,
+            "TextThickness": 1
         }
     },
     "Text": [
@@ -61,6 +62,7 @@ An example JSON file is shown below:
                 "Y": 20
             },
             "Size": 10,
+            "Thickness": 1,
             "Colour": "#FF0000"
         },
         {
@@ -70,6 +72,7 @@ An example JSON file is shown below:
                 "Y": 40
             },
             "Size": 10,
+            "Thickness": 1,
             "Colour": "#FF0000"
         },
         {
@@ -79,10 +82,12 @@ An example JSON file is shown below:
                 "Y": 60
             },
             "Size": 10,
+            "Thickness": 1,
             "Colour": "#FF0000"
         }
     ]
 }
+
 ```
 
 This will turn this image:
@@ -112,6 +117,11 @@ or in fish using:
 ```fish
 set -x TEST hello
 ```
+## Examples
+
+### Gauge Demo
+
+<img src="demo/gauge.jpg" width="400">
 
 ## Licence
 

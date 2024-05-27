@@ -13,16 +13,16 @@
         "Crosshair": {
             "Enabled": true,
             "Colour": "#0000FF",
-            "Thickness": 1,
-            "Size": 10,
-            "Type": "Plus",
+            "Thickness": 10,
+            "Size": 400,
+            "Type": "Square",
             "Offset": {
-                "X": 0,
-                "Y": 0
+                "X": 750,
+                "Y": 200
             }
         },
         "Grid": {
-            "Enabled": true,
+            "Enabled": false,
             "Colour": "#FFFFFF",
             "Thickness": 1,
             "Spacing": 100,
@@ -35,39 +35,29 @@
             "RText": "R",
             "TText": "T",
             "BText": "B",
-            "TextSize": 50,
-            "TextThickness": 1
+            "TextSize": 100,
+            "TextThickness": 10
         }
     },
     "Text": [
         {
-            "Text": "$DATE",
+            "Text": "Gauge",
             "Position": {
                 "X": 10,
-                "Y": 20
+                "Y": 110
             },
-            "Size": 10,
-            "Thickness": 1,
+            "Size": 100,
+            "Thickness": 10,
             "Colour": "#FF0000"
         },
         {
-            "Text": "$TIME",
+            "Text": "Level is at: 1.2 Bar",
             "Position": {
                 "X": 10,
-                "Y": 40
+                "Y": 240
             },
-            "Size": 10,
-            "Thickness": 1,
-            "Colour": "#FF0000"
-        },
-        {
-            "Text": "$V1",
-            "Position": {
-                "X": 10,
-                "Y": 60
-            },
-            "Size": 10,
-            "Thickness": 1,
+            "Size": 100,
+            "Thickness": 10,
             "Colour": "#FF0000"
         }
     ]
