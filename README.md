@@ -132,7 +132,9 @@ pip install -r requirements.txt
 
 ### Gauge Demo
 
-<img src="demo/gauge.jpg" width="400">
+<img src="demo/gauge.jpg" width="200">
+<img src="demo/gauge_output.jpg" width="200">
+
 
 ## Licence
 
