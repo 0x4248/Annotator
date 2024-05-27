@@ -117,6 +117,17 @@ or in fish using:
 ```fish
 set -x TEST hello
 ```
+## Pre-requisites
+
+This project requires the following packages:
+- OpenCV
+
+To install these packages, use the following command:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Examples
 
 ### Gauge Demo

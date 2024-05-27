@@ -1,0 +1,7 @@
+# Annotator
+# Quickly annotate images using JSON.
+# Github: https://www.github.com/0x4248/Annotator
+# Licence: GNU General Public License v3.0
+# By: 0x4248
+
+opencv-python>=4.9.0.80 
