@@ -90,13 +90,10 @@ An example JSON file is shown below:
 
 ```
 
-This will turn this image:
+This will turn this image into this:
 
-![image before edit](demo/leaf.jpg)
-
-Into this image:
-
-![image after edit](demo/output.jpg)
+<img src="demo/leaf.jpg" width="200">
+<img src="demo/output.jpg" width="200"
 
 To generate this from the command line, use the following command:
 
