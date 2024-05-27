@@ -15,11 +15,13 @@ def draw_side_annotations(image, settings):
         color = tuple(int(settings["Colour"][i:i+2], 16) for i in (1, 3, 5))
         font = cv2.FONT_HERSHEY_SIMPLEX
         size = settings["TextSize"]
+        thickness = settings["TextThickness"]
 
-        cv2.putText(image, settings["LText"], (10, h // 2), font, size / 40, color, 1, cv2.LINE_AA)
-        cv2.putText(image, settings["RText"], (w - 50, h // 2), font, size / 40, color, 1, cv2.LINE_AA)
-        cv2.putText(image, settings["TText"], (w // 2, 30), font, size / 40, color, 1, cv2.LINE_AA)
-        cv2.putText(image, settings["BText"], (w // 2, h - 10), font, size / 40, color, 1, cv2.LINE_AA)
+        cv2.putText(image, settings["LText"], (10, h // 2), font, size / 40, color, thickness, cv2.LINE_AA)
+        cv2.putText(image, settings["RText"], (w - 50, h // 2), font, size / 40, color, thickness, cv2.LINE_AA)
+        cv2.putText(image, settings["TText"], (w // 2, 30), font, size / 40, color, thickness, cv2.LINE_AA)
+        cv2.putText(image, settings["BText"], (w // 2, h - 10), font, size / 40, color, thickness, cv2.LINE_AA)
+
 
 def draw_texts(image, settings, imagePath):
     for text in settings:
@@ -28,7 +30,8 @@ def draw_texts(image, settings, imagePath):
         color = tuple(int(text["Colour"][i:i+2], 16) for i in (1, 3, 5))
         font = cv2.FONT_HERSHEY_SIMPLEX
         position = (text["Position"]["X"], text["Position"]["Y"])
-        cv2.putText(image, display_text, position, font, text["Size"] / 20, color, 1, cv2.LINE_AA)
+        thickness = text["Thickness"]
+        cv2.putText(image, display_text, position, font, text["Size"] / 20, color, thickness, cv2.LINE_AA)
 
 def get_var(num):
     for arg in sys.argv:
