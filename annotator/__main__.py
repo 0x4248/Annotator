@@ -31,7 +31,7 @@ def main(imagePath, jsonPath, outputPath):
 
 if __name__ == "__main__":
     if len(sys.argv) < 4:
-        print("Usage: python main.py <imagePath> <jsonPath> <outputPath>")
+        print("Usage: python -m annotator <imagePath> <jsonPath> <outputPath>")
     else:
         imagePath = sys.argv[1]
         jsonPath = sys.argv[2]
