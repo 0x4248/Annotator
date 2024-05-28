@@ -125,6 +125,14 @@ To install these packages, use the following command:
 pip install -r requirements.txt
 ```
 
+## Installation
+
+To install this package, use the following command:
+
+```bash
+pip install .
+```
+
 ## Examples
 
 ### Gauge Demo
